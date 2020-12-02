@@ -1,0 +1,408 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.head{
+	width:100%;
+}
+#im{
+	width: 100%;
+}
+.heading{
+	color: midnightblue;
+	font-size: 40px;
+	font-family:Century Gothic;
+	text-align: center;
+}
+.people{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+        
+}
+.people .team1 .img img {
+	   width: 300px;
+	   height: 300px;
+	  
+}
+.people .team1 .img   {
+	transition: all 0.5s ease-out;	
+}
+.people .team1 .img:hover{
+	width: 300px;
+	height: 300x;
+	transform: rotateY(180deg);
+
+
+}
+.people .team1 .teamdetail{
+	background-color: red;
+	width: 300px;
+	box-sizing: border-box;
+}
+.people .team1 .teamdetail .name h4{
+	color: white;
+	font-size: 1.2rem;
+	text-align: center;
+}
+.people .team1 .teamdetail .name p{
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+}
+.people .team1 .img
+{
+box-sizing: border-box;
+background: #fff;
+box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+0 12.5px 10px rgba(0, 0, 0, 0.035),
+0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+0 100px 80px rgba(0, 0, 0, 0.07);
+}
+.people2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 20px;
+	padding-bottom: 20px;
+        
+}
+.people2 .team2 .img2 img {
+	   width: 300px;
+	   height: 300px;
+	  
+}
+.people2 .team2 .img2   {
+	transition: all 0.5s ease-out;	
+}
+.people2 .team2 .img2:hover{
+	width: 300px;
+	height: 300x;
+	transform: rotateY(180deg);
+
+
+}
+.people2 .team2 .teamdetail2{
+	background-color: red;
+	width: 300px;
+	box-sizing: border-box;
+}
+.people2 .team2 .teamdetail2 .name2 h4{
+	color: white;
+	font-size: 1.2rem;
+	text-align: center;
+
+
+}
+.people2 .team2 .teamdetail2 .name2 p{
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+}
+.people2 .team2 .img2
+{
+box-sizing: border-box;
+background: #fff;
+box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+0 12.5px 10px rgba(0, 0, 0, 0.035),
+0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+0 100px 80px rgba(0, 0, 0, 0.07);
+}
+.footer
+{
+	background-color: midnightblue;
+	width: auto;
+	
+
+}
+.foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+}
+.foot2{
+	text-align: center;
+}
+#a1{
+	max-width: 30px;
+	max-height: 30px;
+  }
+  #a2 {
+	  max-width: 30px;
+	  max-height: 30px;
+	}
+	#a3 {
+	  max-width: 30px;
+	  max-height: 30px;
+	}
+	#item{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 5px 10px;
+	}
+	
+	
+	.icon
+	{
+		padding: 20px;
+		cursor: pointer;
+		
+	}
+	.icon :hover{
+		background-color: red;
+	}
+	.fa , .fa1 , .fa2{
+		padding: 20px;
+
+	}
+	@media screen and (max-width:1251px)
+	{
+		.people .team1 .img img {
+			width: 200px;
+			height: 200px;
+		   
+	 }
+	 
+	 .people .team1 .img:hover{
+		 width: 200px;
+		 height: 200x;
+		 transform: rotateY(180deg);
+	 
+	 
+	 }
+	 .people2 .team2 .img2 img {
+		width: 200px;
+		height: 200px;
+	 }
+	   
+ 
+ 
+ .people2 .team2.img2:hover{
+	 width: 100px;
+	 height: 200x;
+	 transform: rotateY(180deg);
+
+	}
+	.people .team1 .teamdetail{
+		background-color: red;
+		width: 200px;
+		box-sizing: border-box;
+	}
+	.people2 .team2 .teamdetail2{
+		background-color: red;
+		width: 200px;
+		box-sizing: border-box;
+	}
+	.people .team1 .teamdetail .name h4{
+		
+		font-size: 1rem;
+		
+	}
+	.people2 .team2 .teamdetail2 .name2 h4{
+		
+		font-size: 1rem;
+		
+	}
+	.people .team1 .teamdetail .name p{
+	
+		font-size: 0.8rem;
+		
+	}
+	.people2 .team2 .teamdetail2 .name2 p{
+	
+		font-size: 0.8rem;
+		
+	}
+}
+@media screen and (max-width:896px)
+	{
+		.people .team1 .img img {
+			width: 150px;
+			height: 150px;
+		   
+	 }
+	 
+	 .people .team1 .img:hover{
+		 width: 150px;
+		 height: 150x;
+		 transform: rotateY(180deg);
+	 
+	 
+	 }
+	 .people2 .team2 .img2 img {
+		width: 150px;
+		height: 150px;
+	 }
+	   
+ 
+ 
+ .people2 .team2.img2:hover{
+	 width: 150px;
+	 height: 150x;
+	 transform: rotateY(180deg);
+
+	}
+	.people .team1 .teamdetail{
+		background-color: red;
+		width: 150px;
+		box-sizing: border-box;
+	}
+	.people2 .team2 .teamdetail2{
+		background-color: red;
+		width: 150px;
+		box-sizing: border-box;
+	}
+}
+@media screen and (max-width:656px)
+	{
+		.people{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+		}
+		.people2{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+		}
+		.people .team1 .img img {
+			width: 400px;
+			height: 300px;
+		   
+	 }
+	 .people .team1 .img:hover{
+		width: 400px;
+		height: 300x;
+		transform: rotateY(180deg);
+	
+	
+	}
+	.people .team1 {
+	
+		
+		padding-left: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.people .team1 .teamdetail{
+	
+		
+		width: 400px;
+		}
+		.people2 .team2 .img2{
+			box-shadow: none;
+		}
+		.people .team1 .img {
+			box-shadow: none;
+			
+		}
+		.people .team1 .img img{
+			
+			border: 2px solid green;
+		}
+		.people2 .team2 .img2 img{
+			
+			border: 2px solid green;
+		}
+		.people2 .team2 .img2 img {
+			width: 400px;
+			height: 300px;
+		   
+	 }
+	 .people2 .team2 .img2:hover{
+		width: 400px;
+		height: 300x;
+		transform: rotateY(180deg);
+	
+	
+	}
+	.people2 .team2 {
+		padding-left: 10px;
+		
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.people2 .team2 .teamdetail2{
+		
+		width: 400px;
+		}
+		.heading{
+		
+			font-size: 20px;
+		}
+		#im{
+		height: 150px;
+		width:100%;
+		
+		}
+		.head{
+			width:100%;
+		}
+		
+	}
+	@media screen and (max-width:450px)
+	
+	{
+		.people2 .team2 .img2 img {
+			width: 280px;
+			height: 280px;
+		   
+	 }
+	 .people2 .team2 .img2:hover{
+		width: 280px;
+		height: 280x;
+		transform: rotateY(180deg);
+	
+	
+	}
+	.people2 .team2 {
+		padding-left: 40px;
+	}
+	.people .team1 .img img {
+		width: 280px;
+		height: 280px;
+	   
+ }
+ .people .team1 .img:hover{
+	width: 280px;
+	height: 280x;
+	transform: rotateY(180deg);
+
+
+}
+.people .team1 {
+	padding-left: 40px;
+}
+.people2 .team2 .teamdetail2{
+		
+	width: 280px;
+	}
+.people .team1 .teamdetail{
+		
+		width: 280px;
+		}
+	}
+	@media screen and (max-width:441px)
+	{
+		.head{
+			max-width:cover;
+
+		}
+		#im{
+			max-width:cover;
+		}
+	}
+	
+
+		
